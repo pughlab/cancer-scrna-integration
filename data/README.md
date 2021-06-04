@@ -1,11 +1,11 @@
 ### Datasets
 
-| DatasetID | Cancer Type  | Sequencing Technology | Input Material | Num. Samples  | Num. Patients | Num. cells | Cell Types | Data Accession | 
+| DatasetID | Cancer Type  | Sequencing Technology | Input Material | Num. Samples  | Num. Patients | Num. cells | Cell Types | Data Download | 
 |-----------|-------------|----------------------|---------------|---------------|---------------|------------|-----------|------|
-| Richards-GBM-LGG | Glioblastoma,<br />Oligodendroglioma | 10x Genomics, 3' | Nuclei | 8 | 3 | 30k | Malignant,<br />Astrocytes,<br />Oligodendrocytes,<br />Neurons,<br />Tcells,<br />Myeloid,<br />Vascular cells<br />| NA | 
-| Yost-BCC | Basal cell carcinoma | 10x Genomics, 5' | Cells | # | # | # | cell types | [[1]](https://www.nature.com/articles/s41591-019-0522-3#Sec2) | 
-| Ma-LIHC | Cancertype |  | [GSE125449](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125449)
-| Lambrechts-NSCLC | 
+| Richards-GBM-LGG | Glioblastoma,<br />Oligodendroglioma | 10x Genomics, 3' (v2) | Nuclei | 8 | 3 | 30k | Malignant,<br />Astrocytes,<br />Oligodendrocytes,<br />Neurons,<br />Tcells,<br />Myeloid,<br />Vascular cells<br />| NA | 
+| Yost-BCC | Basal cell carcinoma | 10x Genomics, 5' | Cells | # | # | # | cell types | [GSE123814](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123814) | 
+| Ma-LIHC | Hepatocellular carcinoma,<br />Intrahepatic cholangiocarcinoma | 10x Genomics, 3' (v2) | Cells | #samp | #pat | #cells | cell types | [GSE125449](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125449) |
+| Lambrechts-NSCLC | CancerType | Platform | Cells | # | # | # | cell types | https://gbiomed.kuleuven.be/scRNAseq-NSCLC|
 
 ### References
 1. Yost, K.E., Satpathy, A.T., Wells, D.K. et al. Clonal replacement of tumor-specific T cells following PD-1 blockade. Nat Med 25, 1251–1259 (2019). https://doi.org/10.1038/s41591-019-0522-3
