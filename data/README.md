@@ -9,4 +9,4 @@
 
 ### References
 1. Yost, K.E., Satpathy, A.T., Wells, D.K. et al. Clonal replacement of tumor-specific T cells following PD-1 blockade. Nat Med 25, 1251–1259 (2019). https://doi.org/10.1038/s41591-019-0522-3
-2. XXXX
+2. https://doi.org/10.1016/j.ccell.2019.08.007
