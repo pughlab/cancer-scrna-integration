@@ -3,10 +3,10 @@
 
 ## 1) Datasets
 
-| DatasetID | Cancer Type  | Sequencing Technology | Input Material | Num. Samples  | Num. Patients | Num. cells | Cell Types | Data Download |
+| DatasetID | Cancer Type  | Sequencing Technology | Input Material | Num. Samples  | Num. Patients | Num. Cells | Cell Types | Data Download |
 |-----------|-------------|----------------------|---------------|---------------|---------------|------------|-----------|------|
 | Richards-GBM-LGG | Glioblastoma,<br />Oligodendroglioma | 10x Genomics, 3' (v2) | Nuclei | 8 | 3 | 35,549 | Malignant,<br />Astrocytes,<br />Oligodendrocytes,<br />Neurons,<br />Tcells,<br />Myeloid,<br />Vascular cells<br />| NA | 
-| Yost-BCC | Basal cell carcinoma | 10x Genomics, 5' | Cells | # | # | # | cell types | [GSE123813](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123813) |
+| Yost-BCC | Basal cell carcinoma,<br />Squamous cell carcinoma | 10x Genomics, 5' | Cells | 14 | # | 79,046 | cell types | [GSE123813](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123813) |
 | Ma-LIHC | Hepatocellular carcinoma,<br />Intrahepatic cholangiocarcinoma | 10x Genomics, 3' (v2) | Cells | #samp | #pat | #cells | cell types | [GSE125449](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125449) |
 
 
