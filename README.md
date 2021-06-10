@@ -8,7 +8,7 @@
 | Richards-GBM-LGG | Glioblastoma,<br />Oligodendroglioma | 10x Genomics, 3' (v2) | Nuclei | 8 | 3 | 35,549 | Malignant, Astrocytes, Oligodendrocytes, Neurons, Tcells, Myeloid, Vascular cells | NA |
 | Yost-BCC | Basal cell carcinoma | 10x Genomics, 5' | Cells | 11 | 22 | 53,030 | B_cells, CAFs, T_cells, DCs, Endothelial, Macrophages, Malignant, Melanocytes, Myofibroblasts, NK_cells, pDCs, Plasma_cells | [GSE123813](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123813) |
 | Ma-LIHC | Hepatocellular carcinoma,<br />Intrahepatic cholangiocarcinoma | 10x Genomics, 3' (v2) | Cells | 19 | 19 | 9,752 | B_cells, CAFs, HPCs, Malignant, T_cells, Macrophages, Endothelial | [GSE125449](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125449) |
-| Caron-ALL | Childhood acute lymphoblastic leukemia | 10x Genomics, 3' (v2) | Cells | 11 | 11 | 38,829 | Malignant, T_cells, Erythrocytes, B_cells, NK_cells, Macrophages | [GSE132509](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132509) |
+| Caron-ALL | Childhood acute lymphoblastic leukemia | 10x Genomics, 3' (v2) | Cells | 11 | 11 | 38,827 | Malignant, T_cells, Erythrocytes, B_cells, NK_cells, Macrophages | [GSE132509](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132509) |
 
 
 ## 2) Data Integration Tools
