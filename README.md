@@ -23,6 +23,7 @@
 1. Yost, K.E., Satpathy, A.T., Wells, D.K. et al. Clonal replacement of tumor-specific T cells following PD-1 blockade. Nat Med 25, 1251–1259 (2019). https://doi.org/10.1038/s41591-019-0522-3
 2. Ma, L., Hernandez, M.O., Zhao, Y. et al. Tumor Cell Biodiversity Drives Microenvironmental Reprogramming in Liver Cancer. Cancer Cell 36, 418-430.e6 (2019). https://doi.org/10.1016/j.ccell.2019.08.007
 3. Caron, M., St-Onge, P., Sontag, T. et al. Single-cell analysis of childhood leukemia reveals a link between developmental states and ribosomal protein expression as a source of intra-individual heterogeneity. Sci Rep 10, 8079 (2020). https://doi.org/10.1038/s41598-020-64929-x
+4. Bi, K., He, M.X., Bakouny, Z. et al. Tumor and immune reprogramming during immunotherapy in advanced renal cell carcinoma. Cancer Cell 39, 649-661.e5 (2021). https://doi.org/10.1016/j.ccell.2021.02.015
 
 
 ## 4) Contact Information
