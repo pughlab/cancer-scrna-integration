@@ -1,6 +1,11 @@
-# A benchmark of batch-effect correction methods for single-cell RNA sequencing of cancer samples
+## A benchmark of batch-effect correction methods for single-cell RNA sequencing of cancer samples
 
+This repository contains custom code used for analysis and plotting in Richards et al. (2021).
 
+##
+##
+##
+#
 ## 1) Datasets
 
 | DatasetID | Cancer Type  | Sequencing Technology | Input Material | Num. Samples  | Num. Patients | Num. Cells | Cell Types | Data Download |
@@ -11,13 +16,20 @@
 | Caron-ALL | Childhood acute lymphoblastic leukemia | 10x Genomics, 3' (v2) | Cells | 11 | 11 | 38,827 | Malignant, T_cells, Erythrocytes, B_cells, NK_cells, Macrophages | [GSE132509](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132509) |
 | Bi-RCC | Clear cell renal cell carcinoma | 10x Genomics, 3' (v2) | Cells | 8 | 8 | 34,048 | T_cells, Macrophages, NK_cells, Malignant, Endothelial, B_cells, DCs, Mast_cells, Plasma_cells, Fibroblast | [Broad Single Cell Portal: SCP1288](https://singlecell.broadinstitute.org/single_cell/study/SCP1288/tumor-and-immune-reprogramming-during-immunotherapy-in-advanced-renal-cell-carcinoma) |
 
+##
+##
+##
+#
 ## 2) Data Integration Tools
 
 | Method | Reference | Description | Rank | RunTime | MemoryUsage |
 |--------|-----------|-------------|------|---------|-------------|
 |        |           |             |      |         |             |
 
-
+##
+##
+##
+#
 ## 3) References
 
 1. Yost, K.E., Satpathy, A.T., Wells, D.K. et al. Clonal replacement of tumor-specific T cells following PD-1 blockade. Nat Med 25, 1251–1259 (2019). https://doi.org/10.1038/s41591-019-0522-3
@@ -25,5 +37,10 @@
 3. Caron, M., St-Onge, P., Sontag, T. et al. Single-cell analysis of childhood leukemia reveals a link between developmental states and ribosomal protein expression as a source of intra-individual heterogeneity. Sci Rep 10, 8079 (2020). https://doi.org/10.1038/s41598-020-64929-x
 4. Bi, K., He, M.X., Bakouny, Z. et al. Tumor and immune reprogramming during immunotherapy in advanced renal cell carcinoma. Cancer Cell 39, 649-661.e5 (2021). https://doi.org/10.1016/j.ccell.2021.02.015
 
-
+##
+##
+##
+#
 ## 4) Contact Information
+Laura Richards (lauram.richards@mail.utoronto.ca)  
+Dr. Trevor Pugh (trevor.pugh@utoronto.ca)  
