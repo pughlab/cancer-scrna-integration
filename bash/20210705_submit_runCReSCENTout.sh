@@ -1,0 +1,33 @@
+sbatch 20210705_runCReSCENTout.sh Bi-RCC_Conos_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Bi-RCC_fastmnn_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Bi-RCC_Harmony_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Bi-RCC_NoBatchCorrection_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Bi-RCC_RPCA_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Bi-RCC_STACAS_seurat.rds
+
+sbatch 20210705_runCReSCENTout.sh Caron-ALL_Conos_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Caron-ALL_fastmnn_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Caron-ALL_Harmony_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Caron-ALL_NoBatchCorrection_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Caron-ALL_RPCA_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Caron-ALL_STACAS_seurat.rds
+
+sbatch 20210705_runCReSCENTout.sh Ma-LIHC_Conos_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Ma-LIHC_fastmnn_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Ma-LIHC_Harmony_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Ma-LIHC_NoBatchCorrection_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Ma-LIHC_RPCA_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Ma-LIHC_STACAS_seurat.rds
+
+sbatch 20210705_runCReSCENTout.sh Richards-GBM-LGG_Conos_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Richards-GBM-LGG_fastmnn_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Richards-GBM-LGG_Harmony_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Richards-GBM-LGG_NoBatchCorrection_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Richards-GBM-LGG_RPCA_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Richards-GBM-LGG_STACAS_seurat.rds
+
+sbatch 20210705_runCReSCENTout.sh Yost-BCC_Conos_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Yost-BCC_fastmnn_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Yost-BCC_Harmony_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Yost-BCC_NoBatchCorrection_seurat.rds
+sbatch 20210705_runCReSCENTout.sh Yost-BCC_RPCA_seurat.rds
