@@ -27,7 +27,7 @@ option_list <- list(make_option("--seurat",
 opt_parser <- OptionParser(option_list=option_list)
 opt <- parse_args(opt_parser)
 
-file <- opt$file
+file <- opt$seurat
 inputPath <- opt$inputPath
 
 
@@ -148,16 +148,17 @@ print("Normalized Expression Matrix...")
 
 # format
 exp <- dat@assays$RNA@data
-exp <- data.frame(exp)
-GENE <- rownames(exp)
-exp <- cbind(GENE, exp)
+exp <- as.matrix(exp)
+# exp <- data.frame(exp)
+# GENE <- rownames(exp)
+# exp <- cbind(GENE, exp)
 
 # write out file file
 write.table(exp,
             file = paste0(outPrefix, "_normalizedExpression.tsv"),
             quote = FALSE,
             sep = "\t",
-            row.names = FALSE
+            row.names = TRUE
             )
 
 
