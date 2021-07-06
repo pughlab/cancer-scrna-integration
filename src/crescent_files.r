@@ -10,6 +10,7 @@ suppressMessages(library(Seurat))
 suppressMessages(library(optparse))
 suppressMessages(library(dplyr))
 suppressMessages(library(future))
+suppressMessages(library(taRifx))
 
 option_list <- list(make_option("--seurat",
                                 type = "character",
@@ -30,6 +31,8 @@ opt <- parse_args(opt_parser)
 
 file <- opt$seurat
 inputPath <- opt$inputPath
+# file <- "Ma-LIHC_STACAS_seurat.rds"
+# inputPath <- "/cluster/projects/pughlab/projects/cancer_scrna_integration/integration"
 
 #----- SETUP PARALLELIZATION -----#
 
@@ -71,8 +74,8 @@ if ("leiden" %in% colnames(dat@meta.data)){
 
     dat <- FindNeighbors(dat, dims = 1:20)
     dat <- FindClusters(dat, resolution = 0.5)
-    dat@meta.data$leiden <- paste0("C", dat@meta.data$leiden)
-    Idents(dat) <- "leiden"
+    dat@meta.data$leiden <- paste0("C", dat@meta.data$seurat_clusters)
+    Idents(dat) <- "seurat_clusters"
 
 }
 
@@ -108,6 +111,7 @@ row2 <- sapply(meta, is.numeric)
 row2 <- gsub("TRUE", "numeric", row2)
 row2 <- gsub("FALSE", "group", row2)
 row2[1] <- "TYPE"
+meta <- remove.factors(meta)
 meta <- rbind(row2, meta)
 
 # write out file file
