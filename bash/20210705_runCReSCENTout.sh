@@ -2,7 +2,7 @@
 #SBATCH -t 15:00:00
 #SBATCH --mem=30G
 #SBATCH -p all
-#SBATCH -c 1
+#SBATCH -c 10
 #SBATCH -N 1
 
 module load R/4.0.0
