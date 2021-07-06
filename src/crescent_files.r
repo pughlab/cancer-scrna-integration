@@ -9,6 +9,7 @@
 suppressMessages(library(Seurat))
 suppressMessages(library(optparse))
 suppressMessages(library(dplyr))
+suppressMessages(library(future))
 
 option_list <- list(make_option("--seurat",
                                 type = "character",
@@ -29,6 +30,14 @@ opt <- parse_args(opt_parser)
 
 file <- opt$seurat
 inputPath <- opt$inputPath
+
+#----- SETUP PARALLELIZATION -----#
+
+CoresAvailable <- as.numeric(availableCores()[[1]])
+print(paste0(CoresAvailable, " Cores Available"))
+plan("multicore", workers = CoresAvailable)
+options(future.globals.maxSize = 10 * 1024 ^ 3)
+#plan()
 
 
 #----- LOAD DATA -----#
@@ -89,7 +98,6 @@ write.table(markers,
 print("Metadata...")
 
 # extract metadata and format Broad Portal style
-
 dat@meta.data$orig.ident <- sapply(strsplit(file,"_"), `[`, 1)
 dat@meta.data$IntegrationMethod <- sapply(strsplit(file,"_"), `[`, 2)
 meta <- data.frame(dat@meta.data)
