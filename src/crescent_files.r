@@ -89,9 +89,10 @@ write.table(markers,
 print("Metadata...")
 
 # extract metadata and format Broad Portal style
+
+dat@meta.data$orig.ident <- sapply(strsplit(file,"_"), `[`, 1)
+dat@meta.data$IntegrationMethod <- sapply(strsplit(file,"_"), `[`, 2)
 meta <- data.frame(dat@meta.data)
-meta$orig.ident <- sapply(strsplit(file,"_"), `[`, 1)
-meta$IntegrationMethod <- sapply(strsplit(file,"_"), `[`, 2)
 
 NAME <- rownames(meta)
 meta <- cbind(NAME, meta)
@@ -116,7 +117,7 @@ write.table(meta,
 print("Coordinate File...")
 
 # extract UMAP, unless its Conos, then it will be largevis
-if (unique(meta$IntegrationMethod) == "Conos"){
+if (unique(dat@meta.data$IntegrationMethod) == "Conos"){
 
     coords <- dat@reductions$largeVis@cell.embeddings
     coords <- data.frame(coords)
