@@ -74,7 +74,7 @@ if ("leiden" %in% colnames(dat@meta.data)){
 
     dat <- FindNeighbors(dat, dims = 1:20)
     dat <- FindClusters(dat, resolution = 0.5)
-    dat@meta.data$leiden <- paste0("C", dat@meta.data$seurat_clusters)
+    dat@meta.data$seurat_clusters <- paste0("C", dat@meta.data$seurat_clusters)
     Idents(dat) <- "seurat_clusters"
 
 }
