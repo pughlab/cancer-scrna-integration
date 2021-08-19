@@ -1,0 +1,9 @@
+SampleID,PatientID,TumourStage,Age,AgeCohort,Sex,TumourGrade,Pathology_Detailed,Pathology,TumourType,SugeryDate,DateOfDeath,Temozolomide,Radiotherapy,Dexamethasone_Decadron,Treatment,IDH12Status
+B_P_GBM593.1,B,Primary,30,Adult,Female,II,Oligoastrocytoma,Oligoastrocytoma,LGG,Aug-12,N.D.,No,No,No,None,N.D.
+B_P_GBM593.2,B,Primary,30,Adult,Female,II,Oligoastrocytoma,Oligoastrocytoma,LGG,Aug-12,N.D.,No,No,No,None,N.D.
+B_R_GBM898,B,Recurrence,35,Adult,Female,II,Diffuse_Astrocytoma,Astrocytoma,LGG,Feb-17,N.D.,No,No,No,None,N.D.
+C_P_GBM577.1,C,Primary,62,Adult,Female,IV,Glioblastoma,Glioblastoma,GBM,Jun-12,N.D.,No,No,Yes,None,N.D.
+C_P_GBM577.2,C,Primary,62,Adult,Female,IV,Glioblastoma,Glioblastoma,GBM,Jun-12,N.D.,No,No,Yes,None,N.D.
+C_R_GBM625,C,Recurrence,63,Adult,Female,IV,Glioblastoma,Glioblastoma,GBM,Jan-13,N.D.,Yes,Yes,Yes,TMZ+RT,WT
+F_P_GBM620,F,Primary,55,Adult,Male,IV,Glioblastoma,Glioblastoma,GBM,Dec-12,N.D.,N.D.,N.D.,N.D.,N.D.,IDH1_R100Q
+F_R_GBM691,F,Recurrence,56,Adult,Male,IV,Glioblastoma,Glioblastoma,GBM,Nov-13,N.D.,N.D.,N.D.,N.D.,N.D.,IDH1_R100Q
