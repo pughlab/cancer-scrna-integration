@@ -6,7 +6,7 @@ Tumours are routinely profiled with single-cell RNA sequencing (scRNA-seq) to ch
 
 ##
 ### Data Availability 
-The majority of data used during this study was obtained from publicly available sources. All datasets have been made available in their re-processed form through CReSCENT (https://crescent.cloud/; Study IDs CRES-P24, CRES-P25, CRES-P26, CRES-P27, CRES-P28). For newly generated glioma snRNA-seq data, raw sequencing data in the form of FASTQS will be made available through the European Genome-Phenome Archive upon publication.
+The majority of data used during this study was obtained from publicly available sources. All datasets have been made available in their re-processed form through [CReSCENT (Study IDs CRES-P24, CRES-P25, CRES-P26, CRES-P27, CRES-P28)](https://crescent.cloud/). For newly generated glioma snRNA-seq data, raw sequencing data in the form of FASTQS will be made available through the European Genome-Phenome Archive upon publication.
 
 ##
 ### Contact Information
